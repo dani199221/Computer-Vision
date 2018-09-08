@@ -162,15 +162,15 @@ Since we are using a constant size window, the window wont ever change size to p
 
 Python script results:
     <p>ic_1.png Mean average precision for ic = 0.750000</p>
-    ![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part2/detected_ic1.png "ic1")
+    ![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part2/detected_ic1.png "ic1")
     <p>ic_2.png Mean average precision for ic = 1.000000</p>
-    ![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part2/detected_ic2.png "ic2")
+    ![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part2/detected_ic2.png "ic2")
     <p>ic_3.png Mean average precision for ic = 0.000000</p>
-    ![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part2/detected_ic3.png "ic3")
+    ![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part2/detected_ic3.png "ic3")
     <p>ic_4.png Mean average precision for ic = 0.713333</p> 
-    ![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part2/detected_ic4.png "ic4")
+    ![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part2/detected_ic4.png "ic4")
     <p>ic_5.png Mean average precision for ic = 0.000000</p>
-    ![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part2/detected_ic5.png "ic5")
+    ![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part2/detected_ic5.png "ic5")
 
 ### How to Improve 
 1) The size of the template can be varied in accordance with the image or we could run through the image with multiple templates detect different size ICs. 
