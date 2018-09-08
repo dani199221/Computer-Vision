@@ -13,8 +13,8 @@ In order to make the output png clear, we also normalize the magnitude of the im
 
 You can see a sample spectogram of Yoshi below.
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/part1/part1/yoshi.png "yoshi")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/part1/part1/yoshi-spec.png "yoshi spectogram")
+![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part1/yoshi.png "yoshi")
+![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part1/yoshi-spec.png "yoshi spectogram")
 ### 1.2
 #### Running the Code
 Run make to compile the program and then input the command
@@ -28,8 +28,8 @@ so a simple conditional singled them out to be zeroed.
 
 The results can be seen below.
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/part1/part1/noise1.png "noisy")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/part1/part1/cleaned.png "cleaned")
+![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part1/noise1.png "noisy")
+![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A1/part1/cleaned.png "cleaned")
 
 ### 1.3
 #### Running the Code
@@ -70,10 +70,10 @@ The bins selected are equidistant from each other across a circle of radius *r* 
 #### Qualitative Test:
 
 **Before Embedding watermark**
-![](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part1/Lenna.png) 
+![](https://github.com/dani199221/Computer-Vision/blob/master/A1/part1/Lenna.png) 
 
 **After Embedding watermark**
-![](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part1/marked_Lenna.png)
+![](https://github.com/dani199221/Computer-Vision/blob/master/A1/part1/marked_Lenna.png)
 
 ```
 ./watermark 1.3 Lenna.png marked_Lenna.png add 333
@@ -90,10 +90,10 @@ Watermark detected..!
 
 
 **Before Embedding watermark**
-![](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part1/cleaned.png) 
+![](https://github.com/dani199221/Computer-Vision/blob/master/A1/part1/cleaned.png) 
 
 **After Embedding watermark**
-![](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a1/blob/master/part1/marked_cleaned.png)
+![](https://github.com/dani199221/Computer-Vision/blob/master/A1/part1/marked_cleaned.png)
 
 ```
 ./watermark 1.3 cleaned.png marked_cleaned.png add 333
