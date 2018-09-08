@@ -13,7 +13,7 @@ make
 We had created a forward transformation function (apply_transformation) to test the given transformation matrix on the Lincoln memorial image. Afterwards we created a function to apply inverse warping (apply_transformation_inverse_warping) to create a better image that would match the example output shown in the assignment. This function created a result image of the same size as the input filled with 0s. The transformation matrix passed in is inverted. Then each location in the black result image is transformed by the inverted transformation matrix to find the original pixel location and the RGB values. 
 
 ##### 1.1 Results
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/lincoln_warped.png "lincoln")
+![alt text](https://github.com/dani199221/Computer-Vision/blob/master/A2/lincoln_warped.png "lincoln")
 
 The result could have been improved with the use of bilinear interpolation.
 
@@ -23,7 +23,7 @@ The computed transformation matrix is also printed to the console.
 Resource used:  http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/EPSRC_SSAZ/node11.html
 
 ##### 1.2 Results
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/book_result.png "book")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2book_result.png "book")
 
 #### Part 1.3: Billboards
 For this section the overlay_images function was created. It takes the two images and their corresponding points. Then it uses the get_transformation function to find the transformation matrix required to transform the image to the billboard position. Next it loops through the billboard image and when it comes to the location of where the transformation would appear (a position on the billboard), it finds the corresponding pixel value in the original image to be placed on the billboard.
@@ -31,9 +31,9 @@ For this section the overlay_images function was created. It takes the two image
 ##### 1.3 Results
 images/part1/nlss.jpg reference:  https://www.reddit.com/r/NLSSCircleJerk/comments/7uu4fh/i_replaced_harambe_with_hafu_on_the_overlay/
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/synthetic_billboard1.png "b1")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/synthetic_billboard2.png "b2")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/synthetic_billboard3.png "b3")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2synthetic_billboard1.png "b1")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2synthetic_billboard2.png "b2")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2synthetic_billboard3.png "b3")
 
 #### Issues during development of Part 1
 1) It took some time to get an understanding of the CImg library.
@@ -82,54 +82,54 @@ The blend_images function only requires the mask to be the same size as the smal
 
 The blending working on the apple and orange example can be seen below, along with the intermediate pyramids.
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/apple_dis.jpg "apple")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/blended_dis.png "blended")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/orange_dis.jpg "orange")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/mask_dis.jpg "mask")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/apple_dis.jpg "apple")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/blended_dis.png "blended")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/orange_dis.jpg "orange")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/mask_dis.jpg "mask")
 
 Apple pyramids
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau1_000000.png "gaussian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau1_000001.png "gaussian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau1_000002.png "gaussian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau1_000003.png "gaussian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau1_000004.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau1_000000.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau1_000001.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau1_000002.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau1_000003.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau1_000004.png "gaussian pyramid")
 
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap1_000000.png "laplacian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap1_000001.png "laplacian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap1_000002.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap1_000000.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap1_000001.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap1_000002.png "laplacian pyramid")
 ![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap1_000003.png "laplacian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap1_000004.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap1_000004.png "laplacian pyramid")
 
 
 Orange pyramids
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau2_000000.png "gaussian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau2_000001.png "gaussian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau2_000002.png "gaussian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau2_000003.png "gaussian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/gau2_000004.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau2_000000.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/part2/gau2_000001.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau2_000002.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau2_000003.png "gaussian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/gau2_000004.png "gaussian pyramid")
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap2_000000.png "laplacian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap2_000001.png "laplacian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap2_000002.png "laplacian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap2_000003.png "laplacian pyramid")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/lap2_000004.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap2_000000.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap2_000001.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap2_000002.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap2_000003.png "laplacian pyramid")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/lap2_000004.png "laplacian pyramid")
 
 Another interesting application of this blending program is the prototyping of future wardrobe options, as can be seen below.
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/tru_dis.png "trump")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/blendedtrump_good_dis.png "blended")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/mel_dis.png "melania")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/trumpmask_good_dis.png "mask")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/tru_dis.png "trump")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/blendedtrump_good_dis.png "blended")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/mel_dis.png "melania")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/trumpmask_good_dis.png "mask")
 
 The mask made a huge difference in the quality of the result, as can be seen with the same images blended with a more simple mask.
 
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/tru_dis.png "trump")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/blendedtrump_half_dis.png "blended")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/mel_dis.png "melania")
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kayl/images/part2/trumpmask_half_dis.png "mask")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/tru_dis.png "trump")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/blendedtrump_half_dis.png "blended")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/mel_dis.png "melania")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/images/part2/trumpmask_half_dis.png "mask")
 
 ## Part 3
 
@@ -156,10 +156,10 @@ Drawing Lines for SIFT matching pairs and writing to part3_sift_matches.jpg
 Drawing Lines for matching pairs after RANSAC and writing to part3_ransac_matches.jpg  
 
 **part3_sift_matches_eiffel**
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kart/part3_sift_matches_eiffel.jpg "part3_sift_matches_eiffel")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/part3_sift_matches_eiffel.jpg "part3_sift_matches_eiffel")
 
 **part3_ransac_matches_eiffel**
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kart/part3_ransac_matches_eiffel.jpg "part3_ransac_matches_eiffel")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/part3_ransac_matches_eiffel.jpg "part3_ransac_matches_eiffel")
 
 ##### Test_2:
 ```
@@ -170,10 +170,10 @@ Drawing Lines for SIFT matching pairs and writing to part3_sift_matches.jpg
 Drawing Lines for matching pairs after RANSAC and writing to part3_ransac_matches.jpg  
 
 **part3_sift_matches_bigben**
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kart/part3_sift_matches_bigben.jpg "part3_sift_matches_bigben")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/part3_sift_matches_bigben.jpg "part3_sift_matches_bigben")
 
 **part3_ransac_matches_bigben**
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/kart/part3_ransac_matches_bigben.jpg "part3_ransac_matches_bigben")
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/part3_ransac_matches_bigben.jpg "part3_ransac_matches_bigben")
 
 ##### Test_3:
 ```
@@ -222,22 +222,22 @@ We later realized that we can use the corners of the original image to get the m
 ### Results
 
 #### Book Panorama
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/book_panorama.png)
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/book_panorama.png)
 
 #### Hill Panorama
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/mountain_panorama.png)
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/mountain_panorama.png)
 
 #### TV Panorama
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/tv_panorama.png)
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/tv_panorama.png)
 
 #### Roof Top(3)  Panorama
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/roof_3image_panorama.png)
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/roof_3image_panorama.png)
 
 #### Roof Top(4)  Panorama
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/roof_4images_panorama.png)
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/roof_4images_panorama.png)
 
 #### Yosemite Panorama
-![alt text](https://github.iu.edu/cs-b657-sp2018/dnawaz-kaylwalt-minhtong-saidulla-a2/blob/master/yosimite_panorama.png)
+![alt text](https://github.com/dani199221/Computer-Vision/tree/master/A2/yosimite_panorama.png)
 
 
 
